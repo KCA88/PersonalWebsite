@@ -1,0 +1,208 @@
+body {
+    background-color: #394454b2;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+/*NavBar*/
+nav#topmenu ul{
+    list-style: none;
+    background-color: #2b2d31;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav#topmenu li{
+    font-size: 24px;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    padding: 20px;
+}
+
+nav#topmenu a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Profile Card Display */
+.profile-card {
+    width: 90%;
+    max-width: 750px;
+    margin: 10px auto;
+    margin-left: 0;
+    padding: 25px;
+    box-sizing: border-box;
+    background: #232428;
+    color: white;
+    border: 1px solid #41434a;
+    border-radius: 16px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* Profile Header */
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 25px;
+}
+
+.Information h1 {
+    font-size: 25px;
+    margin: 5px 0 10px;
+}
+
+.Information p {
+    margin: 10px 0;
+}
+
+.username {
+    color: #b5bac1;
+    font-size: 14px;
+}
+
+/* My Picture CSS */
+.profile-pic {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #554c77;
+    flex-shrink: 0;
+}
+
+
+
+/* Divider */
+.profile-card hr {
+    border: none;
+    border-top: 1px solid #41434a;
+    margin: 20px 0;
+}
+
+/* Personal information */
+.info-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+}
+
+.info-grid p {
+    margin: 0;
+    padding: 13px;
+    background: #2b2d31;
+    border-radius: 8px;
+}
+
+.info-grid span {
+    display: block;
+    color: #949ba4;
+    font-size: 11px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+/* Skills Section Of the Profile Display */
+.skills {
+    margin-top: 25px;
+}
+
+.skills h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.skill-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-tags span {
+    background: #35373c;
+    color: #c9cdfb;
+    border: 1px solid #4548a8;
+    padding: 9px 12px;
+    border-radius: 7px;
+    font-size: 13px;
+}
+
+/* Summary Title */
+.summarytitle {
+    background-color: #2b2d31;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    margin: 15px auto;
+    width: 90%;
+    max-width: 750px;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.summarytitle h2 {
+    font-size: 24px;
+    margin: 0;
+}
+
+/* Summary Section */
+.summary {
+    background-color: #232428;
+    color: #d1d5db;
+    width: 90%;
+    max-width: 750px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #41434a;
+    border-radius: 12px;
+    line-height: 1.7;
+}
+
+/* Likes and Dreams Sections  */
+.mycategories,
+.mydreams {
+    background-color: #232428;
+    color: white;
+    width: 90%;
+    max-width: 750px;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 15px auto;
+    border: 1px solid #41434a;
+    border-radius: 12px;
+    line-height: 1.8;
+}
+
+.mycategories h2,
+.mydreams h2 {
+    color: #c9cdfb;
+    margin-top: 0;
+}
+
+.mycategories ul,
+.mydreams ul {
+    padding-left: 25px;
+}
+
+.mycategories li,
+.mydreams li {
+    margin-bottom: 6px;
+}
+
+
+footer.footer {
+    background-color: #2b2d31;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin: 20px 0 20px;
+}
