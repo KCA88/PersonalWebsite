@@ -9,6 +9,25 @@ body {
     color: white;
 }
 
+/*Gallery Summary*/
+.gallerypictures {
+    width: 90%;
+    max-width: 750px;
+    margin: 10px auto 20px;
+    padding: 20px;
+    background-color: #232428;
+    color: #d1d5db;
+    border: 1px solid #41434a;
+    border-radius: 12px;
+    line-height: 1.8;
+    text-align: center;
+}
+
+.gallerypictures p {
+    margin: 0;
+}
+
+
 /*NavigationBar*/
 #topmenu ul {
     list-style: none;
@@ -34,6 +53,15 @@ body {
     color: #c9cdfb;
 }
 
+@media (max-width: 600px) {
+
+    /*NavigationBar*/
+
+    #topmenu li {
+        font-size: 16px;
+        padding: 15px 10px;
+    }
+}
 /*FooterDesign*/
 footer.footer {
     background-color: #2b2d31;
